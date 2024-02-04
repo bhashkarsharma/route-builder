@@ -1,0 +1,34 @@
+.sortable-list {
+  li {
+    cursor: grab;
+    transition:
+      transform 0.2s ease-in-out,
+      background-color 0.3s ease-in-out;
+
+    &.dragging {
+      opacity: 0.4;
+    }
+
+    &.dragged {
+      background-color: var(--color-gray-1);
+      cursor: grabbing;
+    }
+
+    &:not(.dragging) {
+      transition: transform 0.2s ease;
+    }
+
+    // &.snap-back {
+    //   animation: snapBack 0.2s forwards;
+    // }
+  }
+}
+
+// @keyframes snapBack {
+//   0% {
+//     transform: translateY(-20px);
+//   }
+//   100% {
+//     transform: translateY(0);
+//   }
+// }
