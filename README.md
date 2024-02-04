@@ -22,7 +22,7 @@
 - The map view is an &lt;iframe&gt; that renders in the background.
 - We overlay the waypoints and routes on top of the map.
 - The Waypoints can be renamed by double-clicking on their name in the list.
-- Dragging the waypoints updates the route.
+- Dragging the waypoints in the list updates the route.
 - The route is displayed using SVG.
 - The GPX file can be downloaded by clicking on the 'Download your Route' button.
 - We use the browser native `crypto.randomUUID()` method for generating UUIDs for each Waypoint. This could be replaced with the `uuid` module from npm.
