@@ -37,4 +37,3 @@
 
 - Map rendering, routing, waypoints and other related mapping concepts.
 - Building a sortable drag-and-drop list natively.
-- Setting a `base` directory in vite config.
